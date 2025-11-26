@@ -7,7 +7,7 @@ const server = createServer(async (req, res) => {
   let filePath;
 
   if(req.url === '/') {
-    filePath = 'Calculator.html';
+    filePath = 'index.html';
   }
   else if(req.url === '/Hello') {
     res.end('Running from: ' + process.cwd() + '\n');
